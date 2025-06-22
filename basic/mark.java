@@ -88,20 +88,63 @@ import java.util.Scanner;
 // -----------------------------------------------------------------------
 // special class code
 
+// class mark{
+//     public static void main(String agrs[]){
+//         Scanner scan= new Scanner(System.in);
+//         int tam = scan.nextInt();
+//         int eng = scan.nextInt();
+//         int mat = scan.nextInt();
+//         int sci = scan.nextInt();
+//         int soc = scan.nextInt();
+
+//         if ((tam+eng+mat+sci+soc)/5 < 35){
+//             System.out.print("Good Job... You can go no Special class needed");
+//         }
+//         else{
+//             System.out.print("Must attend Special Class");
+//         }
+//     }
+// }
+
+// ----------------------------------------------------------------------------------------
+// Traffic light logic
+
+// class mark{
+//     public static void main(String[] agrs){
+//         Scanner scan = new Scanner(System.in);
+//         String light = scan.nextLine();
+//         if (light.equals("R")){
+//             System.out.print("Stop");
+//         }
+//         else if(light.equals("Y")){
+//             System.out.print("Start");
+//         }
+//         else if(light.equals("G")){
+//             System.out.print("Go");
+//         }
+//     }
+// }
+// ----------------------------------------------------------------------------------------
+// loan eligiblity
+
 class mark{
     public static void main(String agrs[]){
-        Scanner scan= new Scanner(System.in);
-        int tam = scan.nextInt();
-        int eng = scan.nextInt();
-        int mat = scan.nextInt();
-        int sci = scan.nextInt();
-        int soc = scan.nextInt();
+        Scanner scan = new Scanner(System.in);
+        int salary = scan.nextInt();
+        int age = scan.nextInt();
+        if (salary>=20000 || age<= 25){
+            System.out.print("Required loan ampunt that you need: ");
 
-        if ((tam+eng+mat+sci+soc)/5 < 35){
-            System.out.print("Good Job... You can go no Special class needed");
+            int amount = scan.nextInt();
+            if (amount<=50000){
+                System.out.print("You are Eligible");
+            }
+            else{
+                System.out.print("maximum amount is 50k");
+            }
         }
         else{
-            System.out.print("Must attend Special Class");
+            System.out.print("You are not Elegible");
         }
     }
 }
