@@ -3,7 +3,7 @@ package basic;
 import java.util.Scanner;
 //------------------------------------------------------------------------
 // class mark{
-//     public static void main(String agrs[]){
+//     public static void main(String args[]){
 //         Scanner scan = new Scanner(System.in);
 //         int Mark = scan.nextInt();
 
@@ -18,7 +18,7 @@ import java.util.Scanner;
 // }
 //----------------------------------------------------------------------
 // class mark {
-//     public static void main(String[] agrs){
+//     public static void main(String[] args){
 //         Scanner scan = new Scanner(System.in);
 //         int income = scan.nextInt();
 
@@ -51,7 +51,7 @@ import java.util.Scanner;
 // }
 //----------------------------------------------------------------------
 // class mark{
-//     public static void main(String agrs[]){
+//     public static void main(String args[]){
 //         Scanner scan = new Scanner(System.in);
 //         int num = scan.nextInt();
 
@@ -67,7 +67,7 @@ import java.util.Scanner;
 // gamming if else code
 
 // class mark{
-//     public static void main(String agrs[]){
+//     public static void main(String args[]){
 //         Scanner scan = new Scanner(System.in);
 //         int score = scan.nextInt();
 
@@ -89,7 +89,7 @@ import java.util.Scanner;
 // special class code
 
 // class mark{
-//     public static void main(String agrs[]){
+//     public static void main(String args[]){
 //         Scanner scan= new Scanner(System.in);
 //         int tam = scan.nextInt();
 //         int eng = scan.nextInt();
@@ -110,7 +110,7 @@ import java.util.Scanner;
 // Traffic light logic
 
 // class mark{
-//     public static void main(String[] agrs){
+//     public static void main(String[] args){
 //         Scanner scan = new Scanner(System.in);
 //         String light = scan.nextLine();
 //         if (light.equals("R")){
@@ -128,12 +128,12 @@ import java.util.Scanner;
 // loan eligiblity
 
 class mark{
-    public static void main(String agrs[]){
+    public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         int salary = scan.nextInt();
         int age = scan.nextInt();
         if (salary>=20000 || age<= 25){
-            System.out.print("Required loan ampunt that you need: ");
+            System.out.print("Required loan amount that you need: ");
 
             int amount = scan.nextInt();
             if (amount<=50000){
@@ -144,7 +144,8 @@ class mark{
             }
         }
         else{
-            System.out.print("You are not Elegible");
+            System.out.print("You are not Eligible");
         }
+        scan.close();
     }
 }

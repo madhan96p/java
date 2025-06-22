@@ -20,12 +20,12 @@ import java.util.Scanner;
 // getting input from user and asign in variable then we move that into if - else ....
 
 class demoif{
-    public static void main(String agrs[]){
+    public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         int num1 = scan.nextInt();
         scan.nextLine();
         int num2 = scan.nextInt();
-        
+        scan.close();
         if(num1==num2){
             System.out.print("Yep both nums are Equal");
         }
@@ -33,7 +33,7 @@ class demoif{
         //     System.out.print("Boom number one is greater then number two..."+ num1);
         // }
         else{
-            System.out.print("Ohho no... nums are not equal and num one is not greater then num1");
+            System.out.print("Oho no... nums are not equal and num one is not greater then num1");
         }
     }
 }

@@ -1,6 +1,9 @@
 {
     "editor.suggest.showWords": false,
     "editor.inlineSuggest.enabled": false,
+    "cSpell.words": [
+        "nums"
+    ],
     // "github.copilot.enable": false
 
 }

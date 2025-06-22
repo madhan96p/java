@@ -1,7 +1,7 @@
-// package basic;
+package basic;
 // import java.util.Scanner;
 // class ternary{
-//     public static void main(String[] agrs){
+//     public static void main(String[] args){
 //         Scanner scan = new Scanner(System.in);
 //         int num1 = scan.nextInt();
 //         int num2 = scan.nextInt();
@@ -13,7 +13,7 @@
 // import java.util.Scanner;
 
 // class ternary{
-//     public static void main(String[] agrs){
+//     public static void main(String[] args){
 //         // print(madhan 10 times)
 //         Scanner scan = new Scanner(System.in);
 //         int times = scan.nextInt();
@@ -30,7 +30,7 @@
 // import java.util.Scanner;
 
 // class ternary{
-//     public static void main(String[] agrs){
+//     public static void main(String[] args){
 //         Scanner scan = new Scanner(System.in);
 //         int a = scan.nextInt();
 //         int b = scan.nextInt();
@@ -46,7 +46,7 @@
 // import java.util.Scanner;
 
 // class ternary{
-//     public static void main(String[] agrs){
+//     public static void main(String[] args){
 //         Scanner scan = new Scanner(System.in);
 //         int range = scan.nextInt();
 
@@ -64,7 +64,7 @@
 import java.util.Scanner;
 
 class ternary{
-    public static void main(String[] agrs){
+    public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int user = scan.nextInt();
         int cnt = 0;
@@ -74,5 +74,6 @@ class ternary{
             }
         }
         System.out.print(cnt);
+        scan.close();
     }
 }
