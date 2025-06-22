@@ -1,3 +1,4 @@
+```
 public static void main(String[] args)
 ^      ^       ^       ^         ^
 |      |       |       |         +--- variable name (can be anything)
@@ -5,3 +6,4 @@ public static void main(String[] args)
 |      |       +--------------------- returns nothing
 |      +----------------------------- no need to create object to run it
 +------------------------------------ accessible by JVM
+```
