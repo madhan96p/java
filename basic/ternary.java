@@ -1,4 +1,4 @@
-package basic;
+// package basic;
 // import java.util.Scanner;
 // class ternary{
 //     public static void main(String[] args){

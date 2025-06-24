@@ -1,4 +1,4 @@
-package basic;
+// package basic;
 // just checking pass or fail
 import java.util.Scanner;
 //------------------------------------------------------------------------

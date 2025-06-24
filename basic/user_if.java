@@ -6,6 +6,7 @@ class user_if{
 
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
+        scan.close();
 
         if(input.equals("Win")){
             System.out.print("Ee Shala nee jaichitta");
