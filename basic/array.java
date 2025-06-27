@@ -56,7 +56,6 @@
 
 // --------------------------------------------------------------------------------
 // getting an size of array as input and asking that tin=mes of input and then mid value of array
-
 import java.util.Scanner;
 
 class array{
@@ -67,8 +66,8 @@ class array{
         int mid = size/2;
         for (int i=0; i<size; i++){
             lens[i] = scan.nextInt();
-            scan.close();
         }
+        scan.close();
         System.out.print(lens[mid]);
     }
 }
